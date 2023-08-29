@@ -8,19 +8,10 @@ using StructTypes
 
 struct Component
     ID::String
-    name::String
-    outlets::Array{String}
-    type::String
-end
-
-struct XYPoint
-    x::Float16
-    y::Float16
 end
 
 struct ReqBody
     components::Array{Component}
-    bathymetries::Dict{String,Array{XYPoint}}
 end
 
 StructTypes.StructType(::Type{ReqBody}) = StructTypes.Struct()

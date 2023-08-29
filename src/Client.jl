@@ -7,7 +7,7 @@ println("Connecting to hello world server...")
 socket = Socket(context, REQ)
 ZMQ.connect(socket, "tcp://localhost:3000")
 
-reqbody = "{\"components\": [{ \"ID\": \"1\", \"name\": \"n1\", \"outlets\": [], \"type\": \"t1\" }],\"bathymetries\": {\"1\":[{ \"x\": \"0\", \"y\": \"0\" }]}}"
+reqbody = "{\"components\": []}}"
 
 
 for request in 1:10
