@@ -1,0 +1,13 @@
+name = "repro"
+uuid = "5d241245-7ab4-40b6-827d-2fd198c23712"
+authors = ["Jerell James <jerell1998@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
