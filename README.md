@@ -12,7 +12,7 @@ julia src/repro.jl
 julia src/Client.jl
 ```
 
-## expected output
+## error
 
 ```bash
 % julia src/repro.jl
