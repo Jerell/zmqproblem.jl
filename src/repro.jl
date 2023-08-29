@@ -1,5 +1,8 @@
 module repro
 
-# Write your package code here.
+include("Server.jl")
+using .Server
+
+Server.start()
 
 end
